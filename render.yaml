@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yatraplan
+    runtime: python
+    buildCommand: pip install flask flask-cors
+    startCommand: python server.py
+    plan: free
